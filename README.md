@@ -4,6 +4,12 @@ This is some code I wrote to calibrate my 8565E. And my old HP 8562A, and a new 
 
 <img src="hp8565e.jpg">
 
+<img src="8565e_3442A00248/248_yig_cal.png">
+
+<img src="8565e_3442A00248/248_yig_cal2.png">
+
+<img src="8565e_3442A00248/248_level_accuracy.png">
+
 ## User Interface
 
 Python notebooks aren't much of a user interface, but for a one-off (or three-off, in this case) job they will do.
