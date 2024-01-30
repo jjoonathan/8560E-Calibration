@@ -10,7 +10,7 @@ It takes measurements from a splitter / power meter and uses those to fix up the
 
 <img src="8565e_3442A00248/248_level_accuracy.png">
 
-However, it also sweeps the YIG pretune settings and computes an optimal trajectory. It is important to calculate the trajectory while looking at the entire block of yig_setting vs frequency data because any algorithm that only considers values at a single frequency (such as the built-in pretune algorithm) will lead to [awful, "jumpy" calibrations](https://youtu.be/dygVTmiumYU?t=176) that result in extremely poor performance (duplicate peaks) on wide sweeps.
+However, it also sweeps the YIG pretune settings and computes an optimal trajectory. It is important to calculate the trajectory while looking at the entire block of yig_setting vs frequency data because any algorithm that only considers values at a single frequency (such as the built-in pretune algorithm) will lead to [awful, "jumpy" calibrations](https://youtu.be/dygVTmiumYU?t=169) that result in extremely poor performance (duplicate peaks) on wide sweeps.
 
 <img src="8565e_3442A00248/248_yig_cal.png">
 
