@@ -4,11 +4,18 @@ This is some code I wrote to calibrate my 8565E. And my old HP 8562A, and a new 
 
 <img src="hp8565e.jpg">
 
+# Features
+
+It takes measurements from a splitter / power meter and uses those to fix up the level settings, of course. 
+
+<img src="8565e_3442A00248/248_level_accuracy.png">
+
+However, it also sweeps the YIG pretune settings and computes an optimal trajectory. It is important to calculate the trajectory while looking at the entire block of yig_setting vs frequency data because any algorithm that only considers values at a single frequency (such as the built-in pretune algorithm) will lead to [awful, "jumpy" calibrations](https://youtu.be/dygVTmiumYU?t=176) that result in extremely poor performance (duplicate peaks) on wide sweeps.
+
 <img src="8565e_3442A00248/248_yig_cal.png">
 
 <img src="8565e_3442A00248/248_yig_cal2.png">
 
-<img src="8565e_3442A00248/248_level_accuracy.png">
 
 ## User Interface
 
