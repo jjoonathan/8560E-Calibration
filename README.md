@@ -1,6 +1,8 @@
-# HP 8565E Calibration
+# HP 8560E Calibration
 
-This is some code I wrote to calibrate my 8565E.
+This is some code I wrote to calibrate my 8565E. And my old HP 8562A, and a new 8565E with a price that was too good to pass up... I may have a problem. If you are looking up HP calibration code on github, you may have the same problem. Maybe this will help!
+
+<img src="hp8565e.jpg">
 
 ## User Interface
 
