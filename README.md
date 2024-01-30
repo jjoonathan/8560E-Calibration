@@ -10,7 +10,7 @@ It takes measurements from a splitter / power meter and uses those to fix up the
 
 <img src="8565e_3442A00248/248_level_accuracy.png">
 
-However, it also sweeps the YIG pretune settings and computes an optimal trajectory. It is important to calculate the trajectory while looking at the entire block of yig_setting vs frequency data because any algorithm that only considers values at a single frequency (such as the built-in pretune algorithm) will lead to [awful, "jumpy" calibrations](https://youtu.be/dygVTmiumYU?t=169) that result in extremely poor performance (duplicate peaks) on wide sweeps. Built-in preselector peak function, I'm looking at you. This notebook does better.
+However, it also sweeps the YIG pretune settings and computes an optimal trajectory. It is important to calculate the trajectory while looking at the entire block of yig_setting vs frequency data because any algorithm that only considers values at a single frequency (such as the built-in pretune algorithm) will lead to [awful, "jumpy" calibrations](https://youtu.be/dygVTmiumYU?t=169) that result in extremely poor performance (even duplicate peaks) on wide sweeps. Built-in preselector peak function, I'm looking at you! This notebook does better: it does not chase the 15-18GHz zig-zag ripples, it does not jump from one hump of the camel to the other at 25GHz, it tracks the first hump with slow and steady certainty, as a good YIG calibration ought to.
 
 <img src="8565e_3442A00248/248_yig_cal.png">
 
